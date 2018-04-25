@@ -1,0 +1,65 @@
+.dropdown, .dropdown-btn, .menu, .sub-menu {
+  cursor: pointer;
+  border: solid #86c3d3 1px;
+  border-radius: 4;
+}
+.dropdown-list {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-list:focus {
+  outline: none;
+}
+.dropdown-list .dropdown-btn {
+  display: inline-block;
+  color: #7c7c7c;
+  padding: 10px;
+  background-color: #fff;
+  min-width: 200px;
+}
+.dropdown-list .chevron-down {
+  color: #5bc0de;
+}
+.dropdown-list .chevron-down, .dropdown-list .chevron-right {
+  float: right;
+}
+.dropdown-list > .menu {
+  top: 100%;
+  left: 0;
+}
+.dropdown-list > .menu .sub-menu {
+  left: 99%;
+  top: 0;
+}
+.dropdown-list > .menu li .sub-menu {
+  white-space: nowrap;
+}
+.dropdown-list .menu, .dropdown-list .sub-menu {
+  padding: 6px;
+  margin: 0;
+  position: absolute;
+  z-index: 1000;
+  background-color: #fff;
+  min-width: 200px;
+  box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.15);
+}
+.dropdown-list li {
+  cursor: pointer;
+  padding: 6px;
+  position: relative;
+  list-style: none;
+}
+.dropdown-list li:focus, .dropdown-list li:hover {
+  background-color: #edf7fc;
+}
+.dropdown-list li.active {
+  background-color: #acdaf1;
+}
+.dropdown-list .dropdown-item.selected, .dropdown-list .checkbox-item.selected {
+  background-color: #28A0DC;
+  color: #fff;
+}
+
+.hide {
+  display: none;
+}
