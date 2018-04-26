@@ -5,10 +5,6 @@ import cx from 'classnames';
 import DropdownItem from './DropdownItem';
 import CheckboxItem from './CheckboxItem';
 
-/**
- * SubMenu
- * @description
- */
 class SubMenu extends Component {
     constructor(props) {
         super(props);

@@ -63,3 +63,7 @@
 .hide {
   display: none;
 }
+
+.margined-sm-right {
+  margin-right: 6px;
+}

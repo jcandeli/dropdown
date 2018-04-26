@@ -4,10 +4,6 @@ import cx from 'classnames';
 import UnCheckedBox from 'react-icons/lib/fa/square-o';
 import CheckedBox from 'react-icons/lib/fa/check-square-o';
 
-/**
- * CheckboxItem
- * @description
- */
 class CheckboxItem extends Component {
     constructor(props) {
         super(props);
